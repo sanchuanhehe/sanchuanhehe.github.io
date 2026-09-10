@@ -2,7 +2,7 @@
 
 GitHub 账号主页与统一项目入口。域名： https://github.sanchuanhehe.com
 
-- `/`：项目导航。
+- `/`：空白首页，暂不展示内容。
 - `/mermaid-gantt-studio/`：由 `sanchuanhehe/mermaid-gantt-studio` 自身的 GitHub Pages 工作流发布，使用通用示例，完整工程仓库保持私有。
 
 本仓库直接从 main 根目录发布，`.nojekyll` 禁用 Jekyll。域名 CNAME 只保留在本账号主页仓库，其他项目使用仓库子路径。
