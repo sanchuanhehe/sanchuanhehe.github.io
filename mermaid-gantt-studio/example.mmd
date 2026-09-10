@@ -1,0 +1,19 @@
+gantt
+    title 产品发布计划 · 示例
+    dateFormat YYYY-MM-DD
+    axisFormat %m/%d
+    tickInterval 1week
+    section 产品
+    需求确认 :done, p1, 2026-09-01, 5d
+    方案评审 :done, milestone, p2, 2026-09-07, 0d
+    用户验证 :active, p3, 2026-09-08, 2026-09-18
+    section 研发
+    核心功能开发 :active, d1, 2026-09-07, 2026-09-25
+    联调与测试 :d2, after d1, 10d
+    风险问题闭环 :crit, d3, 2026-10-01, 2026-10-10
+    发布就绪 :milestone, d4, 2026-10-14, 0d
+    section 运营
+    营销计划 :o1, 2026-09-14, 2026-09-25
+    内容准备 :o2, after o1, 10d
+    正式发布 :milestone, o3, 2026-10-15, 0d
+    持续运营 :o4, 2026-10-16, 2026-10-30
